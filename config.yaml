@@ -1,0 +1,21 @@
+architecture:
+    llm_model: Viet-Mistral/Vistral-7B-Chat
+    embedding_model: intfloat/multilingual-e5-small
+    hf_token: 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
+    llm_quantized: False
+dataset:
+    chunk_marker: BK_CHUNK
+    required_exts: .docx
+    data_dir: ./data
+    processed_data_dir: ./processed_data
+    signal_type: html_table
+    keep_bold: True
+retrieve:
+    top_k: 2
+generation:
+    max_new_tokens: 2048
+    temperature: 0.6
+    do_sample: True
+    top_p: 0.9
+environment:
+    device: 'cuda'

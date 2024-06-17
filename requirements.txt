@@ -1,0 +1,11 @@
+llama-index==0.10.44
+mammoth==1.7.1
+python-docx==1.1.2
+docx2txt==0.8
+langchain-community==0.2.4
+sentence-transformers==3.0.1
+accelerate==0.31.0
+bitsandbytes==0.43.1
+langchain-huggingface==0.0.3
+jsonargparse==4.29.0
+llama-index-embeddings-langchain
