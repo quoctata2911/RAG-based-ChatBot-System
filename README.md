@@ -63,4 +63,4 @@ We welcome contributions to improve the RAG-ChatBot. Please fork the repository 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-For any questions or suggestions, please contact me at [Your Email].
+For any questions or suggestions, please contact me at quoctrananh2911@gmail.com
